@@ -40,9 +40,6 @@ bodies = [sun, earth, jupiter, mercury,  mars, venus, saturn, uranus, neptune]
 for i in bodies:
     x.add_particle(i)   
     
-    
-
-
 #add the gravitational force to the environment
 x.add_gravity(G=c.G.value, softening_length=0)
 #x.add_gravity_oct(G=c.G.value, softening_length=0)
